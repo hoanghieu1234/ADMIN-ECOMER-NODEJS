@@ -96,7 +96,6 @@ const ProductManager = () => {
       });
       setShowForm(false);
       setEditData(null);
-      setCheckEdit(true);
     } catch (error) {
       console.log(error);
     }
